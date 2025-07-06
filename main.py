@@ -6,7 +6,7 @@ import secrets
 class GenerateSecret:
     """ Класс для генерации паролей """
 
-    def __init__(self, length = 12):
+    def __init__(self, length: int = 12) -> None:
         """ Инициализация """
 
         self.length = length
